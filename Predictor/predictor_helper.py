@@ -1,7 +1,7 @@
 import numpy, pickle, math
 from random import choice
 
-NUM_FILES = 100
+NUM_FILES = 20
 freq = dict ()
 words = []
 examples = []

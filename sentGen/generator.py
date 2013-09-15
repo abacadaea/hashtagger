@@ -3,7 +3,7 @@ import random
 import pickle
 import numpy
 
-NUM_FILES = 130
+NUM_FILES = 20
 MAX_LINES_SHAKESPEARE = 0
 
 hdict = dict ()
