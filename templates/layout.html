@@ -1,0 +1,37 @@
+<!doctype html>
+<head>
+<link rel ="stylesheet" href="/static/css/semantic/elements/button.min.css">
+<link rel ="stylesheet" href="/static/css/semantic/elements/divider.min.css">
+<link rel ="stylesheet" href="/static/css/semantic/elements/header.min.css">
+<link rel ="stylesheet" href="/static/css/semantic/elements/input.min.css">
+<style type="text/css" media="screen,print">
+    @font-face {
+          font-family: "Open Sans";
+            font-style: normal;
+              font-weight: 700;
+                src: local("Open Sans Bold"), local("OpenSans-Bold"), url("http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff") format("woff");
+            }
+            body { font-family: "Open Sans", bold;
+                    font-size: 65px;}
+	    p { font-family: "Open Sans", bold;
+                    font-size: 20px;}
+</style>
+<title>#gr</title>
+</head>
+
+<body>
+<div class="ui vertical segment">
+    <div class="ui huge header">#gr</div>
+
+{% block body %}{% endblock %}
+{% block p %}{% endblock %}
+
+</div>
+    <form action = "/">
+      <button class="ui twitter button">
+	Back
+      </button>
+    </form>
+</body>
+
+</html>

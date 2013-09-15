@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if error %}<p class=error><strong>Error:</strong> {{ error }}{% endif %}
+  <form action="/hashtag/1" method=post>
+      <div class="ui input">
+          <input type=text name=hashtag placeholder="#hashtag" autocomplete="off">
+      </div>
+      <button class="massive ui twitter button">
+            Generate Tweet
+      </button>
+  </form>
+
+<br>
+    <form action="/hashtag/2" method=post>
+      <div class="ui input">
+          <input type=text name=text placeholder="Tweet" autocomplete="off">
+      </div>
+      <button class="massive ui twitter button">
+            Get Hashtags
+      </button>
+  </form>
+{% endblock %}
+
